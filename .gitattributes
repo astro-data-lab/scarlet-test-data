@@ -1,2 +1,2 @@
-galsim_hst_to_hsc_resolution.npy filter=lfs diff=lfs merge=lfs -text
-data/ filter=lfs diff=lfs merge=lfs -text
+scarlet_test_data/tests/galsim_hst_to_hsc_resolution.npy filter=lfs diff=lfs merge=lfs -text
+scarlet_test_data/data/ filter=lfs diff=lfs merge=lfs -text
