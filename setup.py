@@ -14,7 +14,7 @@ setup(
                               "data/*.pkl",
                               "data/test_resampling/*.npz",
                               "data/test_resampling/*.fits",
-                              "data/multiresolution_tutorial/*.fits",
+                              "data/multiresolution_tutorial/*",
                               "tests/*"],
     },
     include_package_data=True,
