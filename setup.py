@@ -10,7 +10,12 @@ setup(
     license='MIT',
     packages=['scarlet_test_data'],
     package_data={
-        "scarlet_test_data": ["data/*.npz", "data/*.pkl", "data/test_resampling/*.npz", "data/test_resampling/*.fits", "tests/*"],
+        "scarlet_test_data": ["data/*.npz",
+                              "data/*.pkl",
+                              "data/test_resampling/*.npz",
+                              "data/test_resampling/*.fits",
+                              "data/multiresolution_tutorial/*.fits",
+                              "tests/*"],
     },
     include_package_data=True,
 )
